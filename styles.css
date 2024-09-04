@@ -35,7 +35,7 @@ section h3 {
 
 a {
     color: #007BFF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
