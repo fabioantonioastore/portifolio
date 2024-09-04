@@ -3,60 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portfólio - Fábio Antônio Astore</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Ninja</h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Fábio Antônio Astore</h1>
+        <p>Desenvolvedor Back-End</p>
     </header>
-    <section id="sobre">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Bem-vindo ao meu portfólio! Sou um desenvolvedor com experiência em backend utilizando Python com FastAPI e Rust. Tenho uma base matemática sólida e trabalhei com inteligência artificial. Estudo e trabalho com desenvolvimento desde os 14 anos de idade.</p>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Atualmente atuo como freelancer e já obtive experiência em desenvolvimento back-end utilizando tecnologias como Python, FastAPI, PostgreSQL e SQLAlchemy.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Links de Contato</h2>
+        <ul>
+            <li><a href="https://fabioxxi.github.io/portifolio/" target="_blank">Portfólio</a></li>
+            <li><a href="https://github.com/FabioXXI" target="_blank">GitHub</a></li>
+            <li><a href="https://leetcode.com/u/FabioNinja/" target="_blank">LeetCode</a></li>
+            <li><a href="https://wa.me/5527999653916" target="_blank">WhatsApp</a></li>
+            <li><a href="mailto:astore.a.fabio@gmail.com">Email</a></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Tecnologias</h2>
+        <ul>
+            <li>FastAPI</li>
+            <li>PostgreSQL</li>
+            <li>SQLAlchemy</li>
+            <li>Python</li>
+            <li>Git / GitHub</li>
+            <li>Linux</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Educação</h2>
+        <p>Bacharelado em Sistemas de Informação, IFES Campus Colatina (2024 - 2028)</p>
+        <p>O'Reilly, MIT OpenCourseWare</p>
+        <p>Inglês Intermediário, Busuu</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experiência</h2>
+        <div class="project">
+            <h3>Freelancer, Espírito Santo (2022 - Presente)</h3>
+            <p>Desenvolvedor Back-End</p>
+            <h4>Projeto: Link Shortener</h4>
+            <p>Um site encurtador de links que possui a função simples de criar um alias para uma URL específica.</p>
+            <p>Tecnologias: Python, FastAPI, PostgreSQL e SQLAlchemy.</p>
+
+            <h4>Projeto: App Backend</h4>
+            <p>Backend de um aplicativo de igreja que coleta o dízimo dos fiéis via Pix e redistribui para a constituição.</p>
+            <p>Tecnologias: Python, FastAPI, PostgreSQL, SQLAlchemy e OpenPix.</p>
         </div>
     </section>
-    <section id="projetos">
-        <div class="container">
-            <h2>Projetos</h2>
-            <div class="projeto">
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto 1.</p>
-            </div>
-            <div class="projeto">
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto 2.</p>
-            </div>
-            <!-- Adicione mais projetos conforme necessário -->
-        </div>
-    </section>
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
+
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Ninja. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Fábio Antônio Astore. Todos os direitos reservados.</p>
     </footer>
     <script src="script.js"></script>
 </body>
